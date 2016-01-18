@@ -1,3 +1,40 @@
+/*TUTORIAL CSS*/
+.circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+  border: solid 1px black;
+	/* width and height can be anything, as long as they're equal */
+}
+
+.bar-chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+
+/*Padding works poorly with SVG charts*/
+.chart-container{
+	margin: 10px;
+}
+
+.chart rect {
+  fill: steelblue;
+}
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+
+
+
+/*BOILER PLATE CSS*/
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;

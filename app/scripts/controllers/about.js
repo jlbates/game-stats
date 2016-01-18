@@ -9,9 +9,5 @@
  */
 angular.module('ns2StatsProjectApp')
   .controller('AboutCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+
   });
