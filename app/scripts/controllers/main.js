@@ -98,7 +98,7 @@ angular.module('ns2StatsProjectApp')
 
     // The data fetch with it's callback
     // Set draw width and height here in the callback so the page will draw properly based on data that comes back
-    d3.tsv("testdata.tsv", type, function(error, data) {
+    d3.tsv("../../resources/tsv/testdata.tsv", type, function(error, data) {
       x.domain([0, d3.max(data, function(d) { return d.value; })]);
 
       chart.attr("height", barHeight * data.length);
