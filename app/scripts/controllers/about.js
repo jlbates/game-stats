@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name ns2StatsApp.controller:AboutCtrl
+ * @name ns2StatsProjectApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the ns2StatsApp
+ * Controller of the ns2StatsProjectApp
  */
-angular.module('ns2StatsApp')
+angular.module('ns2StatsProjectApp')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

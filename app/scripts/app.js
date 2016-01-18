@@ -2,20 +2,17 @@
 
 /**
  * @ngdoc overview
- * @name ns2StatsApp
+ * @name ns2StatsProjectApp
  * @description
- * # ns2StatsApp
+ * # ns2StatsProjectApp
  *
  * Main module of the application.
  */
 angular
-  .module('ns2StatsApp', [
-    'ngAnimate',
-    'ngCookies',
+  .module('ns2StatsProjectApp', [
     'ngResource',
     'ngRoute',
-    'ngSanitize',
-    'ngTouch'
+    'ngSanitize'
   ])
   .config(function ($routeProvider) {
     $routeProvider
